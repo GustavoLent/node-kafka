@@ -1,0 +1,16 @@
+{
+  "name": "node-kafka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "startAdmin": "node kafka_admin.js",
+    "startP": "node producer.js",
+    "startC": "node consumer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kafkajs": "^1.15.0"
+  }
+}
